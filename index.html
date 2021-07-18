@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- fontawesome -->
+    <script src="fontawesome-free-5.11.2-web/js/all.js"></script>
+
+    
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- magnific pop css -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <title>Document</title>
+</head>
+    
+<body onload="myFunction()" style="margin: 0;">
+
+    <div id="loader"></div>
+
+        <!-- social icons -->
+    <div style="display: none;" id="myDiv" class="animate-bottom" class="container-fluid info p-3" id="top-icons">
+        <div class="row">
+            <div class="col d-flex justify-content-between align-items-baseline flex-wrap">
+                <div class="info-icons p-2">
+                    <a class="mr-2 primary-color" href="#">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a class="mr-2 primary-color" href="#">
+                    <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a class="mr-2 primary-color" href="#">
+                    <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a class="mr-2 primary-color" href="#">
+                    <i class="fab fa-yelp fa-2x"></i>
+                    </a>
+                </div>
+
+                <div class="primary-color p-2 mb-1">
+                <a href="#">Order</a>
+                <a href="#">Admin</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- end of social icons -->
+
+        
+        <!-- header section -->
+
+    <header id="header">
+    <div class="container">
+        <div class="row height-90 align-items-center justify-content-center">
+            <div class="col">
+                <div class="banner text-center">
+                    <h1 class="display-1 text-capitalize w-50 mx-auto">
+                        <small>K</small><strong class="primary-color">Com</strong>  
+                    </h1>
+                    <a href="#" class="btn main-btn kcom-btn my-4 text-capitalize">order online</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <a href="#special-item" class="btn header-link primary-color"><i class="fas fa-arrow-down"></i></a>
+    </header>
+
+        <!-- end of header section -->
+
+
+    <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-lg">
+
+            <a href="#" class="navbar-brand text-uppercase primary-color">kCom</a>
+            <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#myNavbar">
+                <div class="toggler-btn">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                </div>
+                </button>
+
+                <!-- links -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="#special-items" class="nav-link text-capitalize"> Special Items</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#menu" class="nav-link text-capitalize">menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link text-capitalize">about</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#reviews" class="nav-link text-capitalize">reviews</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link text-capitalize">team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link text-capitalize">contact</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="form-inline d-none d-lg-block mr-5">
+                        <button class="btn nav-btn text-capitalize" type="button">order online</button>
+                    </form>
+                </div> 
+        </nav>
+
+    <!-- end of Navbar section -->
+
+    <!-- order items -->
+    <section class="py-5" id="special-item">
+        <div class="container my-5">
+            <div class="row parent-container">
+                <!-- order item -->
+                <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item1.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item1.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+
+                    <!-- order item 2 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item7.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item7.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+
+                    <!-- order item 3 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item3.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item3.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+
+                    <!-- order item 4 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item4.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item4.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+                    <!-- order item 5 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item5.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item5.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+
+                    <!-- order item 6 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item6.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item6.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+
+
+                        <!-- order item 7 -->
+                        <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                        <div class="item-container">
+                            <img src="img/menu-item7.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                            <a href="img/menu-item7.jpg">
+                                <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                            </a>
+                        </div>
+                    </div>
+
+
+                            <!-- order item 8 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item8.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item8.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+
+                        <!-- order item 9a -->
+                        <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                        <div class="item-container">
+                            <img src="img/menu-item9a.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                            <a href="img/menu-item9a.jpg">
+                                <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                            </a>
+                        </div>
+                    </div>
+
+                            <!-- order item 16 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item16.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item16.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+
+
+                    <!-- order item 17 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                        <div class="item-container">
+                            <img src="img/menu-item17.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                            <a href="img/menu-item17.jpg">
+                                <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                            </a>
+                        </div>
+                    </div>
+
+                        <!-- order item 18 -->
+                        <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                            <div class="item-container">
+                                <img src="img/menu-item18.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                                <a href="img/menu-item18.jpg">
+                                    <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                                </a>
+                            </div>
+                        </div>
+
+                    <!-- order item 14b -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                        <div class="item-container">
+                            <img src="img/menu-item14b.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                            <a href="img/menu-item14b.jpg">
+                                <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                            </a>
+                        </div>
+                    </div>
+
+                        <!-- order item 14a -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item14a.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item14a.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">order item</h1>
+                        </a>
+                    </div>
+                </div>
+
+                    <!-- order item 12 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                        <div class="item-container">
+                            <img src="img/menu-item12.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                            <a href="img/menu-item12.jpg">
+                                <h1 class="text-uppercase text-center item-link px-3">menu item</h1>
+                            </a>
+                        </div>
+                    </div>
+
+                        <!-- menu item 10 -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="img/menu-item10.jpg" class="img-fluid img-thumbnail item-img" alt="menu-item1">
+
+                        <a href="img/menu-item10.jpg">
+                            <h1 class="text-uppercase text-center item-link px-3">menu item</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of menu items -->
+
+    <!-- about us menu -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-4">
+                    <h1 class="text-uppercase display-3">about us</h1>
+                    <h2 class="text-muted color-text">we sell all apple products and we give discunt to our new and old customer.Kindly purchase all your apple product from K-com be it your airpod,phones,laptop,watch and other varieties</h2>
+                    <a href="" class="btn main-btn my-4 text-capitalize">learn more</a>
+                </div>
+                <div class="col-md-6 about-pictures my-5 py-4 d-noned-lg-block">
+                    <img src="img/menu-item1.jpg" class="img-1 img-thumbnail about-image" alt="about-image">
+                    <img src="img/menu-item7.jpg" class="img-7 img-thumbnail about-image" alt="about-image">
+                    <img src="img/menu-item3.jpg" class="img-3 img-thumbnail about-image" alt="about-image">
+                    <img src="img/menu-item4.jpg" class="img-4 img-thumbnail about-image" alt="about-image">
+                    <img src="img/menu-item5.jpg" class="img-5 img-thumbnail about-image" alt="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about us menu -->
+
+
+        <!-- Testimonial -->
+        <section id="testimonial" class="testy py-5">
+            <div id="slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- carousel item -->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto d-flex justify-content-between testimonial-item py-3">
+                                    <!-- image -->
+                                    <div class="align-self-center ml-3">
+                                        <img src="img/customer-1.jpg"  class="rounded-circle testimonial-img" alt="">
+
+                                    </div>
+                                    <!-- text -->
+                                    <div class="testimonial-text px-5">
+                                        <h2 class="text-capitalize mb-3 primary-color">customer name</h2>
+                                        <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptate?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- end of carousel -->
+
+
+                        <!-- carousel item -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto d-flex justify-content-between testimonial-item py-3">
+                                    <!-- image -->
+                                    <div class="align-self-center ml-3">
+                                        <img src="./img/customer-2.jpg"  class="rounded-circle testimonial-img" alt="">
+
+                                    </div>
+                                    <!-- text -->
+                                    <div class="testimonial-text px-5">
+                                        <h2 class="text-capitalize mb-3 primary-color">customer name</h2>
+                                        <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptate?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <!-- end of carousel -->
+
+                        <!-- carousel item -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto d-flex justify-content-between testimonial-item py-3">
+                                    <!-- image -->
+                                    <div class="align-self-center ml-3">
+                                        <img src="./img/customer-3.jpg"  class="rounded-circle testimonial-img" alt="">
+
+                                    </div>
+                                    <!-- text -->
+                                    <div class="testimonial-text px-5">
+                                        <h2 class="text-capitalize mb-3 primary-color">customer name</h2>
+                                        <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptate?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <!-- end of carousel -->
+
+                </div>
+
+                <!-- carousel control -->
+                <a href="#slider" class="carousel-control-prev"role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" ></span>
+                </a>
+
+                    <!-- carousel control -->
+                    <a href="#slider" class="carousel-control-next"role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" ></span>
+                </a>
+            </div>
+        </section>
+        <!-- end of testimonial -->
+
+
+        <!-- team -->
+        <section id="team" class="py-5">
+            <div class="container">
+                <div class="row">
+
+                    <!-- team member -->
+                        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4">
+                            <div class="card">
+                                <img src="./img/team3.jpg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h1 class="text-capitalize">team member</h1>
+                                    </div>
+                                    <h4 class="primary-color text-capitalize">CEO</h4>
+                                </div>
+
+                                <div class="card-footer team-icons d-flex justify-content-between">
+                                    <a href="#">
+                                        <i class="fab fa-facebook fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of team member -->
+                        <!-- team member -->
+                        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4">
+                        <div class="card">
+                            <img src="./img/team2.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h1 class="text-capitalize">team member</h1>
+                                </div>
+                                <h4 class="primary-color text-capitalize">COO</h4>
+                            </div>
+
+                            <div class="card-footer team-icons d-flex justify-content-between">
+                                    <a href="#">
+                                        <i class="fab fa-facebook fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin fa-2x"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- team member -->
+                        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4">
+                        <div class="card">
+                            <img src="./img/team1.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h1 class="text-capitalize">team member</h1>
+                                </div>
+                                <h4 class="primary-color text-capitalize">CTO</h4>
+                            </div>
+
+                            <div class="card-footer team-icons d-flex justify-content-between">
+                                    <a href="#">
+                                        <i class="fab fa-facebook fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter fa-2x" style="color: lightblue;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin fa-2x"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- team member -->
+                        <!-- <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4">
+                        <div class="card">
+                            <img src="./img/team3.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h1 class="text-capitalize">team member</h1>
+                                </div>
+                                <h4 class="primary-color text-capitalize">CEO</h4>
+                            </div>
+
+                            <div class="card-footer team-icons d-flex justify-content-between">
+                                    <a href="#">
+                                        <i class="fab fa-facebook fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram fa-2x"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin fa-2x"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- end of team -->
+
+
+
+            <!-- contact section -->
+
+            <section id="contact">
+                <div class="container-fluidno-padding">
+                    <div class="row">
+                        <div class="col-md-6 my-3">
+                            <div class="embed-responsive embed-responsive-21by9 height-60">
+                                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125767.08243323312!2d8.803124665922198!3d9.915516307942765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1053724e68ec1c83%3A0x21ebe700fbd5381d!2sJos!5e0!3m2!1sen!2sng!4v1625032079097!5m2!1sen!2sng" width="100%"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+
+
+                         <div class=" col-md-6 my-3 align-self-center">
+                             <div class="card text-center">
+                                 <div class="card-header text-uppercase">
+                                     <h1>contact list</h1>
+                                 </div>
+
+                                 <div class="card-body">
+                                     <form>
+                                         <!-- input group -->
+                                         <div class="input-group my-3">
+                                             <div class="input-group-prepend">
+                                                 <span class="input-group-text" id="input-text">
+                                                     <i class="fas fa-user"></i>
+                                                 </span>
+                                             </div>
+
+                                             <input type="text" class="form-control form-control-lg" id="text" placeholder="Enter your name here">
+                                         </div>
+
+                                         <!-- input group -->
+                                         <div class="input-group my-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="input-phone">
+                                                    <i class="fas fa-phone"></i>
+                                                </span>
+                                            </div>
+
+                                            <input type="text" class="form-control form-control-lg" id="phone" placeholder="Enter your phone here">
+                                        </div>
+
+                                        <!-- input group -->
+                                        <div class="input-group my-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="input-email">
+                                                    <i class="fas fa-envelope"></i>
+                                                </span>
+                                            </div>
+
+                                            <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter your email here">
+                                        </div>
+
+                                        <button type="submit" class="btn btn-block btn-lg text-uppercase contact-btn"><i class="far fa-hand-point-right mr-2"></i> click here</button>
+                                     </form>
+                                 </div>
+
+
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid info p-3">
+                <div class="row">
+                    <div class="col d-flex justify-content-between align-items-baseline flex-wrap">
+                        <div class="info-icons p-2">
+                            <a class="mr-2 primary-color" href="#">
+                              <i class="fab fa-facebook fa-2x"></i>
+                           </a>
+                           <a class="mr-2 primary-color" href="#">
+                            <i class="fab fa-twitter fa-2x"></i>
+                         </a>
+                         <a class="mr-2 primary-color" href="#">
+                            <i class="fab fa-instagram fa-2x"></i>
+                         </a>
+                         <a class="mr-2 primary-color" href="#">
+                            <i class="fab fa-yelp fa-2x"></i>
+                         </a>
+                        </div>
+                        <h2 class="primary-color p-2 text-uppercase">&copy;copyright 2021</h2>
+                      
+                    </div>
+                </div>
+            </div>
+
+              <a href="#top-icons" id="back-to-top" class="p-1"><i class="fas fa-arrow-up primary-color fa-3x"></i></a>
+
+            <!-- end of contact section -->
+        
+    
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+     <!-- popper js -->
+     <script src="js/popper.js"></script>
+
+     <!-- ripple js -->
+     <script src="js/jquery.ripples-min.js"></script>
+
+     <!-- magnific pop js -->
+     <script src="js/jquery.magnific-popup.js"></script>
+
+    <!-- custom js -->
+    <script src="index.js"></script>
+    
+</body>
+</html>
